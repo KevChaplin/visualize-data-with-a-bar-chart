@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: hsl(30, 40%, 60%);
+}
+
+.container {
+  width: 1200px;
+  height: 700px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  background-color: white;
+  margin: auto;
+  box-shadow: 0px 0px 15px 5px hsla(0, 0%, 20%, 0.5);
+}
+
+.bar {
+  fill: hsl(210, 100%, 35%);
+}
+.bar:hover {
+  fill: red;
+}
+
+#title {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 15px 10px;
+  border: none;
+  background-color: hsla(210, 100%, 65%, 1);
+  box-shadow: 0px 0px 10px 5px hsla(0, 0%, 100%, 0.5);
+  visibility: hidden;
+}
